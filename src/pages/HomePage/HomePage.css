@@ -1,0 +1,48 @@
+.home-container {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero {
+    margin: auto;
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 30px; 
+    justify-content: center; 
+    margin-top: 20px;
+}
+
+.cta-button {
+    background-color: #007bff; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+.about-button {
+    background-color: #ff6347; 
+}
+
+.about-button:hover {
+    background-color: #e5533d; 
+}
