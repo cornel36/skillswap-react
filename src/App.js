@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import HomePage from './pages/HomePage/HomePage';
 import ProfilePage from './pages/ProfilePage/ProfilePage';
 import Navbar from './components/Navbar/Navbar';
@@ -11,10 +11,11 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
+        <Route path="/skillswap-react" element={<Navigate replace to="/" />} />
         <Route path="/" element={<HomePage />} />
         <Route path="/profile" element={<ProfilePage />} />
-        <Route path="/AuthPage" element={<AuthPage />} />
-        <Route path="/LoginPage" element={<LoginPage />} />
+        <Route path="/auth" element={<AuthPage />} />
+        <Route path="/login" element={<LoginPage />} />
       </Routes>
     </Router>
   );
