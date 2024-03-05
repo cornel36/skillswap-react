@@ -11,7 +11,6 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/skillswap-react" element={<Navigate replace to="/" />} />
         <Route path="/" element={<HomePage />} />
         <Route path="/profile" element={<ProfilePage />} />
         <Route path="/auth" element={<AuthPage />} />
