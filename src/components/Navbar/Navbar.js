@@ -15,7 +15,7 @@ function Navbar() {
     };
 
     const handleAuthClick = () => { 
-        navigate('/AuthPage'); 
+        navigate('/auth'); 
     };
 
     return (
