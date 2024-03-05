@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/skillwap-react/static/css/main.3f24beb3.css",
-    "main.js": "/skillwap-react/static/js/main.f42e65a8.js",
-    "static/media/logo_fullskala.png": "/skillwap-react/static/media/logo_fullskala.c014d8c3c8ff85173114.png",
-    "index.html": "/skillwap-react/index.html",
-    "main.3f24beb3.css.map": "/skillwap-react/static/css/main.3f24beb3.css.map",
-    "main.f42e65a8.js.map": "/skillwap-react/static/js/main.f42e65a8.js.map"
+    "main.css": "/skillswap-react/static/css/main.3f24beb3.css",
+    "main.js": "/skillswap-react/static/js/main.ad8c10da.js",
+    "static/media/logo_fullskala.png": "/skillswap-react/static/media/logo_fullskala.c014d8c3c8ff85173114.png",
+    "index.html": "/skillswap-react/index.html",
+    "main.3f24beb3.css.map": "/skillswap-react/static/css/main.3f24beb3.css.map",
+    "main.ad8c10da.js.map": "/skillswap-react/static/js/main.ad8c10da.js.map"
   },
   "entrypoints": [
     "static/css/main.3f24beb3.css",
-    "static/js/main.f42e65a8.js"
+    "static/js/main.ad8c10da.js"
   ]
 }
