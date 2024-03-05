@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Navbar from '../../components/Navbar/Navbar'; 
 import './HomePage.css'
 
 function HomePage() {
@@ -10,7 +9,7 @@ function HomePage() {
         <h1>Welcome to Skill Swap!</h1>
         <p>Exchange skills with others to learn something everyday!</p>
         <div className='hero-buttons'>
-        <Link to='/AuthPage' className="cta-button">Join now!</Link>
+        <Link to='/auth' className="cta-button">Join now!</Link>
         <Link to='/about' className='cta-button about-button'>More details</Link>
         </div>
       </section>
